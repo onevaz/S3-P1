@@ -1,0 +1,30 @@
+/*universal*/
+* {
+    margin:0;
+    padding:0;
+}
+/*etiqueta*/
+p {color: brown;}
+
+/*clase*/
+.tip {color: red;}
+.pruebagrande{font-size: large;}
+.prueba{font-size: medium;}
+/*identificador*/
+#azul {color: blue;}
+/*desendiente*/
+ div h1 p{
+    color: white;
+}
+/*combinacion*/
+h2,p {
+    font-stretch: ultra-expanded;
+}
+/*hijo*/
+header h2 {
+    color:green;
+}
+/*adyacente*/
+.rojonaranja + #grisaceo {
+   color: grey;
+}
