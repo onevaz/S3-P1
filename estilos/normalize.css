@@ -5,9 +5,22 @@
     margin: 20px;   
     display: inline-block;
 }
-/*.contenedor{
-    displat: flex;
-}*/
+.cuadrado{
+    width:200px ;
+    height:200px ;
+    background: #aaa;
+    margin: 20px;   
+    display: inline-block;
+}
+.rectangulo{
+    width:200px ;
+    height:100px ;
+    background: #aaa;
+    margin: 20px;   
+}
+.contenedor{
+    display: flex;
+}
 
 
 
