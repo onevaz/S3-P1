@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <title>FORMULARIO DE iniciar sesion</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="ancho">
+            <div class="logo">
+                <p><a href="index.html">Web bank</a></p>
+
+            </div>
+            <nav>
+               <ul>
+                    <li><a href="index.html">Registrarse</a></li>
+                   <li><a href="index3.html">Nosotros</a></li>
+                   <li><a href="index4.html">contacto</a></li>
+               </ul> 
+            </nav>
+        </div>
+    </header>
+
+    <section class="form">
+        <h3>Bienvenido administrador</h3>
+        <h4>Ingrese correctamente los siguientes datos :</h4><br>
+        <input class="boton"  type="button" id="btnMostrar" value="Mostrar Registros">
+
+        <input class="control" type="text" name="telefono" id="itelefono" placeholder="Ingrese el numero telefonico :">
+        <input class="control" type="text" name="deuda" id="deuda" placeholder="Ingrese la deuda :">
+        <input class="control" type="text" name="pago" id="pago" placeholder="Ingrese la pago :">
+        <input class="control" type="text" name="fecha" id="fecha" placeholder="Ingrese la fecha :">
+        
+        <input class="boton"  type="submit" id="btnAgregar" value="Agregar datos">
+    </section>
+    <div id="detalles"></div>
+</body>
+<script src="js/mostrar.js"></script>
+<script src="js/agregar.js"></script>
+</html>
+    
